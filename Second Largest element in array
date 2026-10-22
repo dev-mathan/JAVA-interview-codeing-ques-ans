@@ -11,7 +11,7 @@ class Main {
         }
         
         for(int j = 0; j < arr.length; j++){
-            if(arr[j] < largest && arr[j] != largest){
+            if(arr[j] < largest && arr[j] > second_large){ 
                 second_large = arr[j];
             }
         }
